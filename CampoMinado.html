@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Campo Minado</title>
+	<meta charset="utf-8">
+	<style type="text/css" >
+		.container {
+		    width: 100vw;
+		    height: 100vh;
+		    background: #6C7A89;
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		    align-items: center
+		}
+		.box {
+		    width: 500px;
+		    height: 500px;
+		    background: #fff;
+		    border: 4px solid #000000;
+		    border-radius:4px;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: center;
+		}
+		.Campos{
+		    width: 30px;
+		    height: 30px;
+		}
+
+		}
+		.radios{
+			float: left;
+		}
+		body {
+		    margin: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<h1>Campo Minado</h1>
+			<input type="button" name="Reset" id="btnReset" value="Reset">
+			<div class="radios">
+				<input type="radio" name="tamanho" value="20" checked> Fácil
+				<input type="radio" name="tamanho" value="56"> Medio
+				<input type="radio" name="tamanho" value="80"> Dificil
+			</div>
+			<br>
+			<p class="P"></p>
+			<br>
+			<div class="Tabuleiro">
+				Selecione o Tamanho do Tabuleiro para começar.
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="Script.js"></script>
+</body>
+</html>
